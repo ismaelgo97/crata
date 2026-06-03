@@ -1,0 +1,59 @@
+{
+  "type": "nda",
+  "label": "Acuerdo de Confidencialidad (NDA)",
+  "legal_framework": ["Código Civil español", "Ley 1/2019 de Secretos Empresariales", "Ley Orgánica 3/2018 (LOPD-GDD)"],
+  "common_risk_areas": [
+    "Definición de información confidencial (ambigüedad)",
+    "Duración de la obligación de confidencialidad",
+    "Excepciones a la confidencialidad",
+    "Obligaciones de las partes receptoras",
+    "Consecuencias del incumplimiento y penalizaciones",
+    "Tratamiento de datos personales incluidos en la información",
+    "Ley aplicable y jurisdicción"
+  ],
+  "red_flags": [
+    "Definición de información confidencial excesivamente amplia o sin límites",
+    "Duración indefinida o desproporcionada (más de 5 años post-relación)",
+    "Ausencia de excepciones estándar (información pública, requerimiento judicial)",
+    "Penalizaciones desproporcionadas sin límite máximo",
+    "Cesión de información confidencial a terceros sin consentimiento",
+    "Ausencia de cláusula de tratamiento de datos personales (incumplimiento LOPD)"
+  ],
+  "few_shot_examples": [
+    {
+      "clause_text": "Se considera información confidencial cualquier dato, documento, conversación, idea, concepto o información de cualquier naturaleza que una parte transmita a la otra, con independencia del soporte, el momento o el canal utilizado.",
+      "matched_red_flag": "Definición de información confidencial excesivamente amplia o sin límites",
+      "issue": "Una definición sin límites que incluye cualquier dato transmitido en cualquier contexto crea inseguridad jurídica y puede convertir en confidencial información que en la práctica es pública o irrelevante, dificultando la defensa en caso de litigio.",
+      "law_reference": "Art. 1 de la Ley 1/2019 de Secretos Empresariales",
+      "severity": "high"
+    },
+    {
+      "clause_text": "La obligación de confidencialidad pactada en el presente acuerdo tendrá carácter indefinido y permanecerá vigente sin límite temporal tras la finalización de la relación entre las partes.",
+      "matched_red_flag": "Duración indefinida o desproporcionada (más de 5 años post-relación)",
+      "issue": "La confidencialidad indefinida es difícilmente ejecutable y puede considerarse abusiva. Los tribunales tienden a limitar su alcance temporal; lo razonable es entre 2 y 5 años post-relación dependiendo del sector.",
+      "law_reference": "Art. 1256 del Código Civil y jurisprudencia del TS sobre cláusulas abusivas",
+      "severity": "medium"
+    },
+    {
+      "clause_text": "Las partes se obligan a mantener la más estricta confidencialidad sobre toda la información recibida, sin que quepa excepción alguna, incluyendo los supuestos en que la divulgación sea requerida por autoridad judicial o administrativa competente.",
+      "matched_red_flag": "Ausencia de excepciones estándar (información pública, requerimiento judicial)",
+      "issue": "Obligar a mantener la confidencialidad incluso ante requerimientos judiciales o administrativos es contrario al ordenamiento jurídico español y puede hacer incurrir a la parte receptora en responsabilidad penal por desobediencia.",
+      "law_reference": "Art. 118 de la Constitución Española y Art. 17 de la Ley 1/2019",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "El incumplimiento de cualquier obligación de este acuerdo por parte del receptor dará lugar a una penalización de 500.000 euros por cada infracción, sin necesidad de acreditar daño alguno, acumulables sin límite máximo.",
+      "matched_red_flag": "Penalizaciones desproporcionadas sin límite máximo",
+      "issue": "Las penalizaciones acumulables sin techo máximo y desconectadas del daño real pueden ser moderadas judicialmente. Su carácter disuasorio extremo puede considerarse cláusula penal abusiva.",
+      "law_reference": "Art. 1154 del Código Civil",
+      "severity": "high"
+    },
+    {
+      "clause_text": "En el marco de este acuerdo podrán intercambiarse datos de carácter personal de empleados y clientes. Las partes se comprometen a tratar dicha información con la misma diligencia que la propia, sin mención adicional al tratamiento de datos.",
+      "matched_red_flag": "Ausencia de cláusula de tratamiento de datos personales (incumplimiento LOPD)",
+      "issue": "El intercambio de datos personales en un NDA exige una cláusula específica que regule la base legal del tratamiento, los plazos de conservación, las medidas de seguridad y los derechos de los interesados conforme al RGPD y la LOPD-GDD.",
+      "law_reference": "Arts. 13 y 28 del RGPD (UE) 2016/679 y Ley Orgánica 3/2018 (LOPD-GDD)",
+      "severity": "severe"
+    }
+  ]
+}

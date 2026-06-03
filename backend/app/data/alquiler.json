@@ -1,0 +1,59 @@
+{
+  "type": "alquiler",
+  "label": "Contrato de Arrendamiento",
+  "legal_framework": ["Ley 29/1994 de Arrendamientos Urbanos (LAU)", "Código Civil español"],
+  "common_risk_areas": [
+    "Duración mínima del contrato (5 años para personas físicas según LAU)",
+    "Fianza y garantías adicionales",
+    "Actualización de renta (IPC o índice pactado)",
+    "Obligaciones de mantenimiento y reparación",
+    "Causas de resolución anticipada",
+    "Cláusulas de penalización por desistimiento",
+    "Derecho de tanteo y retracto del arrendatario",
+    "Subrogación en caso de fallecimiento"
+  ],
+  "red_flags": [
+    "Renuncia a la prórroga obligatoria",
+    "Fianza superior a dos mensualidades en vivienda habitual",
+    "Exclusión de la actualización de renta por IPC",
+    "Prohibición total de obras de adaptación para discapacidad",
+    "Cláusula de desahucio express sin causa justificada"
+  ],
+  "few_shot_examples": [
+    {
+      "clause_text": "El presente contrato tendrá una duración obligatoria de un año, extinguiéndose automáticamente a su vencimiento sin derecho a prórroga alguna para el arrendatario.",
+      "matched_red_flag": "Renuncia a la prórroga obligatoria",
+      "issue": "El contrato intenta saltarse la prórroga legal obligatoria de hasta 5 años para personas físicas.",
+      "law_reference": "Art. 9.1 de la LAU",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "A la firma del contrato, el inquilino hace entrega de una mensualidad en concepto de fianza legal y tres mensualidades adicionales como garantía complementaria.",
+      "matched_red_flag": "Fianza superior a dos mensualidades en vivienda habitual",
+      "issue": "Las garantías adicionales a la fianza en arrendamientos de vivienda habitual no pueden exceder de dos mensualidades.",
+      "law_reference": "Art. 36.5 de la LAU",
+      "severity": "high"
+    },
+    {
+      "clause_text": "La renta pactada permanecerá fija durante toda la vigencia del contrato, sin posibilidad de actualización anual de ningún tipo.",
+      "matched_red_flag": "Exclusión de la actualización de renta por IPC",
+      "issue": "Aunque pactar renta fija es posible, la cláusula elimina completamente el derecho del arrendador a actualizar conforme al índice acordado, generando desequilibrio en contratos de larga duración.",
+      "law_reference": "Art. 18 de la LAU",
+      "severity": "medium"
+    },
+    {
+      "clause_text": "El arrendatario no podrá realizar ningún tipo de obra o modificación en el inmueble, incluyendo aquellas necesarias para la adaptación del mismo a personas con discapacidad o mayores de 70 años.",
+      "matched_red_flag": "Prohibición total de obras de adaptación para discapacidad",
+      "issue": "La ley reconoce expresamente el derecho del arrendatario a realizar obras de adaptación para personas con discapacidad o mayores de 70 años, no pudiendo el arrendador prohibirlas.",
+      "law_reference": "Art. 24 de la LAU",
+      "severity": "high"
+    },
+    {
+      "clause_text": "En caso de impago de una sola mensualidad, el arrendador podrá proceder al desahucio inmediato del arrendatario sin necesidad de requerimiento previo ni plazo de subsanación.",
+      "matched_red_flag": "Cláusula de desahucio express sin causa justificada",
+      "issue": "La eliminación del requerimiento previo y del plazo de subsanación priva al arrendatario de garantías procesales básicas reconocidas en la LAU y la LEC.",
+      "law_reference": "Art. 27.3 de la LAU y Art. 440.3 de la LEC",
+      "severity": "severe"
+    }
+  ]
+}

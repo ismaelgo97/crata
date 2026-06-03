@@ -1,0 +1,35 @@
+FACTURA
+
+Número: FAC-2025-0234
+Fecha: 15 de mayo de 2025
+
+EMISOR:
+Diseño Web Moderno S.L.
+CIF: B11223344
+Calle Fuencarral 44, 28004 Madrid
+diseñowebmoderno@ejemplo.com
+
+RECEPTOR:
+Comercial Distribuciones S.A.
+CIF: A55667788
+Avenida del Mediterráneo 120, 28007 Madrid
+
+CONCEPTO:
+Servicios de diseño y desarrollo de sitio web corporativo según presupuesto aceptado ref. P-2025-089.
+
+DESGLOSE:
+- Diseño UX/UI (40 horas x 80 €/h): 3.200,00 €
+- Desarrollo frontend (60 horas x 90 €/h): 5.400,00 €
+- Integración CMS y configuración: 800,00 €
+- Hosting primer año: 300,00 €
+
+SUBTOTAL: 9.700,00 €
+IVA (21%): 2.037,00 €
+TOTAL FACTURA: 11.737,00 €
+
+FORMA DE PAGO: Transferencia bancaria
+IBAN: ES98 0049 1234 5678 9012 3456
+PLAZO DE PAGO: 30 días desde la fecha de emisión
+
+Diseño Web Moderno S.L.
+Firmado: María García López, Administradora

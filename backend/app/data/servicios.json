@@ -1,0 +1,58 @@
+{
+  "type": "servicios",
+  "label": "Contrato de Prestación de Servicios",
+  "legal_framework": ["Código Civil español (arts. 1583-1587)", "Ley 7/1998 de Condiciones Generales", "Ley 3/2004 de medidas contra la morosidad"],
+  "common_risk_areas": [
+    "Definición y alcance del servicio (scope creep)",
+    "Plazos de entrega y penalizaciones",
+    "Condiciones de pago y plazos legales anti-morosidad",
+    "Propiedad intelectual sobre entregables",
+    "Cláusulas de confidencialidad",
+    "Limitación de responsabilidad",
+    "Causas de rescisión unilateral"
+  ],
+  "red_flags": [
+    "Limitación de responsabilidad inferior al precio del contrato",
+    "Cesión de propiedad intelectual sin contraprestación adicional",
+    "Plazos de pago superiores a 60 días (incumplimiento Ley 3/2004)",
+    "Cláusula de exclusividad desproporcionada",
+    "Penalizaciones asimétricas entre las partes"
+  ],
+  "few_shot_examples": [
+    {
+      "clause_text": "La responsabilidad total del prestador de servicios por cualquier concepto quedará limitada a un importe máximo equivalente al 10% del valor total del contrato, con independencia de la naturaleza del daño.",
+      "matched_red_flag": "Limitación de responsabilidad inferior al precio del contrato",
+      "issue": "Limitar la responsabilidad a un porcentaje simbólico del contrato desincentiva el cumplimiento diligente y puede dejar al cliente sin compensación real ante incumplimientos graves.",
+      "law_reference": "Art. 1107 del Código Civil y Art. 8 de la Ley 7/1998",
+      "severity": "high"
+    },
+    {
+      "clause_text": "Todos los derechos de propiedad intelectual sobre los entregables, desarrollos, diseños y documentación generada durante la ejecución del contrato serán propiedad exclusiva del cliente desde el momento de su creación, sin contraprestación adicional al precio del servicio.",
+      "matched_red_flag": "Cesión de propiedad intelectual sin contraprestación adicional",
+      "issue": "La cesión global y anticipada de todos los derechos de propiedad intelectual sin precio específico puede ser impugnada y limita gravemente la capacidad del prestador de usar su propio trabajo como referencia.",
+      "law_reference": "Art. 43 del Real Decreto Legislativo 1/1996 (Ley de Propiedad Intelectual)",
+      "severity": "high"
+    },
+    {
+      "clause_text": "El cliente abonará las facturas emitidas por el prestador en un plazo máximo de 90 días naturales desde la fecha de emisión de cada factura.",
+      "matched_red_flag": "Plazos de pago superiores a 60 días (incumplimiento Ley 3/2004)",
+      "issue": "Los plazos de pago entre empresas no pueden superar los 60 días desde la fecha de entrega o prestación del servicio. Un plazo de 90 días incumple directamente la Ley de Morosidad.",
+      "law_reference": "Art. 4 de la Ley 3/2004 de medidas contra la morosidad",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "Durante la vigencia del presente contrato y durante los 24 meses siguientes a su extinción, el prestador no podrá ofrecer servicios similares a ninguna empresa del sector, independientemente de la zona geográfica.",
+      "matched_red_flag": "Cláusula de exclusividad desproporcionada",
+      "issue": "Una exclusividad sin límite geográfico ni compensación económica específica durante 2 años post-contrato restringe de forma desproporcionada la libertad de empresa del prestador.",
+      "law_reference": "Art. 38 de la Constitución Española y Art. 1 de la Ley 15/2007 de Defensa de la Competencia",
+      "severity": "high"
+    },
+    {
+      "clause_text": "El incumplimiento de cualquier plazo de entrega por parte del prestador generará una penalización del 5% del valor total del contrato por día de retraso. El cliente no estará sujeto a penalización alguna por retrasos en la provisión de información o aprobaciones necesarias.",
+      "matched_red_flag": "Penalizaciones asimétricas entre las partes",
+      "issue": "Las penalizaciones deben ser recíprocas. Sancionar al prestador por retrasos mientras el cliente no asume consecuencias por bloquear la ejecución crea un desequilibrio contractual abusivo.",
+      "law_reference": "Art. 1256 del Código Civil y Art. 82 del RDL 1/2007 (TRLGDCU)",
+      "severity": "high"
+    }
+  ]
+}

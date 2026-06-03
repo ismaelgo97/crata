@@ -1,0 +1,42 @@
+INFORME CLÍNICO
+
+Centro de Salud: Centro de Atención Primaria Vallecas
+Fecha: 10 de junio de 2025
+Médico: Dra. Elena Sobrino Ruiz (Nº Colegiado: 28-12345)
+
+DATOS DEL PACIENTE
+Nombre: [DATOS ANONIMIZADOS]
+Edad: 45 años
+Sexo: Masculino
+Historia clínica: HC-2025-088234
+
+MOTIVO DE CONSULTA
+Paciente acude a revisión periódica. Refiere cansancio generalizado, dificultad para conciliar el sueño y episodios ocasionales de cefalea tensional.
+
+ANTECEDENTES PERSONALES
+- Hipertensión arterial de grado I, diagnosticada en 2021, en tratamiento farmacológico.
+- Dislipemia leve, controlada con dieta.
+- Sin alergias medicamentosas conocidas.
+- No fumador. Consumo de alcohol moderado (2-3 UBEs/semana).
+
+EXPLORACIÓN FÍSICA
+- Tensión arterial: 138/86 mmHg
+- Frecuencia cardíaca: 72 lpm
+- Peso: 84 kg | Talla: 178 cm | IMC: 26,5 (sobrepeso leve)
+- Auscultación cardiopulmonar: normal
+- Abdomen: blando, depresible, sin organomegalias
+
+JUICIO CLÍNICO
+1. Hipertensión arterial grado I, control subóptimo.
+2. Síndrome de fatiga relacionado con estrés laboral.
+3. Insomnio de conciliación.
+
+PLAN TERAPÉUTICO
+1. Ajuste de dosis de enalapril: pasar de 10 mg/24h a 20 mg/24h.
+2. Se pauta melatonina 1 mg antes de dormir durante 4 semanas.
+3. Se recomienda reducción de ingesta de sodio y actividad física moderada 150 min/semana.
+4. Control tensional en 4 semanas.
+
+Próxima cita: 8 de julio de 2025
+
+Firmado: Dra. Elena Sobrino Ruiz

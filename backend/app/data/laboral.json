@@ -1,0 +1,59 @@
+{
+  "type": "laboral",
+  "label": "Contrato Laboral",
+  "legal_framework": ["Estatuto de los Trabajadores (RDL 2/2015)", "Ley Orgánica 3/2018 (LOPD)", "Convenio Colectivo aplicable"],
+  "common_risk_areas": [
+    "Tipo de contrato y justificación de temporalidad",
+    "Periodo de prueba (máximos legales por categoría)",
+    "Retribución y complementos salariales",
+    "Jornada laboral y horas extraordinarias",
+    "Pacto de no competencia post-contractual",
+    "Cláusula de confidencialidad",
+    "Causas y procedimiento de extinción"
+  ],
+  "red_flags": [
+    "Periodo de prueba superior al máximo legal",
+    "Contrato temporal sin causa objetiva justificada",
+    "Pacto de no competencia sin compensación económica",
+    "Renuncia anticipada a derechos irrenunciables (vacaciones, indemnización)",
+    "Jornada que supera los límites del ET sin compensación",
+    "Cláusula de disponibilidad permanente sin retribución"
+  ],
+  "few_shot_examples": [
+    {
+      "clause_text": "El presente contrato incluye un período de prueba de 9 meses para el trabajador, que podrá ser resuelto por cualquiera de las partes sin preaviso ni indemnización durante dicho período.",
+      "matched_red_flag": "Periodo de prueba superior al máximo legal",
+      "issue": "El Estatuto de los Trabajadores fija el período de prueba máximo en 6 meses para técnicos titulados y 2 meses para el resto de trabajadores. 9 meses supera el límite legal en cualquier categoría.",
+      "law_reference": "Art. 14.1 del Estatuto de los Trabajadores (RDL 2/2015)",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "Se formaliza contrato de duración determinada por circunstancias de la producción por un período de 11 meses, renovable de forma indefinida a criterio de la empresa.",
+      "matched_red_flag": "Contrato temporal sin causa objetiva justificada",
+      "issue": "Los contratos por circunstancias de la producción tienen un límite de 6 meses ampliable a 1 año por convenio. Además, la renovación indefinida a criterio unilateral del empleador desnaturaliza la temporalidad y puede implicar fraude de ley.",
+      "law_reference": "Art. 15.2 del Estatuto de los Trabajadores",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "El trabajador se obliga a no prestar servicios, directa o indirectamente, para ninguna empresa competidora durante los 2 años posteriores a la extinción del contrato, sin que ello genere derecho a compensación económica adicional.",
+      "matched_red_flag": "Pacto de no competencia sin compensación económica",
+      "issue": "El pacto de no competencia post-contractual solo es válido si existe compensación económica adecuada. Sin ella, el pacto es nulo y el trabajador no queda vinculado.",
+      "law_reference": "Art. 21.2 del Estatuto de los Trabajadores",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "El trabajador renuncia expresamente al cobro de horas extraordinarias realizadas durante la vigencia del contrato, que serán absorbidas por el salario pactado, así como a los días de vacaciones que no hayan sido disfrutados al finalizar el año natural.",
+      "matched_red_flag": "Renuncia anticipada a derechos irrenunciables (vacaciones, indemnización)",
+      "issue": "Los derechos establecidos en el ET son irrenunciables. Las vacaciones no pueden sustituirse por compensación económica salvo en extinción, y las horas extraordinarias deben compensarse o retribuirse según convenio.",
+      "law_reference": "Art. 3.5 y Art. 38.1 del Estatuto de los Trabajadores",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "El trabajador acepta una jornada laboral de 45 horas semanales de lunes a viernes, estando disponible además los sábados cuando las necesidades del negocio así lo requieran, sin retribución adicional por dicha disponibilidad.",
+      "matched_red_flag": "Jornada que supera los límites del ET sin compensación",
+      "issue": "La jornada máxima ordinaria es de 40 horas semanales. Las horas que excedan ese límite son horas extraordinarias que deben compensarse económicamente o con descanso. La disponibilidad retribuida también tiene límites.",
+      "law_reference": "Art. 34.1 y Art. 35 del Estatuto de los Trabajadores",
+      "severity": "high"
+    }
+  ]
+}

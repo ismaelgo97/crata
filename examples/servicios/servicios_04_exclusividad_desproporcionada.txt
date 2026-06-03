@@ -1,0 +1,34 @@
+CONTRATO DE SERVICIOS TECNOLÓGICOS
+
+En Valencia, a 18 de abril de 2025.
+
+CONTRATANTE: Finanzas Digitales S.A., CIF A90123456, representada por D. Héctor Blanco Ruiz. Domicilio: Avenida del Puerto 200, 46023 Valencia.
+
+PROVEEDOR TECNOLÓGICO: Algoritmos y Datos S.L., CIF B01234567, representada por D. Ignacio Peña Molina. Domicilio: Calle Colón 12, 46004 Valencia.
+
+OBJETO
+
+El proveedor desarrollará e implementará un sistema de análisis de riesgo crediticio basado en inteligencia artificial, según las especificaciones del Pliego Técnico adjunto.
+
+PRECIO Y PAGO
+
+Precio total: 120.000 euros (IVA excluido). Pago fraccionado en tres tramos iguales de 40.000 euros, vinculados a la consecución de cada hito. Plazo de pago: 30 días desde la factura.
+
+LIMITACIÓN DE RESPONSABILIDAD
+
+La responsabilidad total del proveedor por todos los conceptos y reclamaciones que pudieran derivarse del presente contrato no superará en ningún caso la cantidad de 5.000 euros, con independencia del daño real producido.
+
+EXCLUSIVIDAD POST-CONTRACTUAL
+
+El proveedor se obliga a no ofrecer servicios de desarrollo de software, consultoría tecnológica o análisis de datos a ninguna entidad del sector financiero, asegurador o fintech en todo el territorio de la Unión Europea, durante los veinticuatro (24) meses siguientes a la finalización o extinción del presente contrato, cualquiera que sea su causa. Esta obligación no genera derecho a compensación económica alguna.
+
+PROPIEDAD INTELECTUAL
+
+El contratante adquiere todos los derechos de propiedad intelectual e industrial sobre el software desarrollado, incluyendo el código fuente, algoritmos, modelos de IA y documentación, los cuales se ceden de forma exclusiva, perpetua y para cualquier territorio, sin coste adicional.
+
+CONFIDENCIALIDAD: Indefinida para toda la información técnica y de negocio intercambiada.
+
+JURISDICCIÓN: Juzgados de Valencia.
+
+Finanzas Digitales S.A.                 Algoritmos y Datos S.L.
+Héctor Blanco Ruiz                      Ignacio Peña Molina

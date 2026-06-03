@@ -1,0 +1,17 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Themia - Contract Risk Analyser"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "groq>=1.4.0",
+    "langchain>=0.3",
+    "langchain-core>=0.3",
+    "langchain-openai>=1.2.2",
+    "langgraph>=0.2",
+    "pydantic-settings>=2.14.1",
+    "pytest>=9.0.3",
+    "sqlalchemy>=2.0.50",
+]

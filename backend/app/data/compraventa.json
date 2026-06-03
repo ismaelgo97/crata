@@ -1,0 +1,58 @@
+{
+  "type": "compraventa",
+  "label": "Contrato de Compraventa",
+  "legal_framework": ["Código Civil español (arts. 1445-1537)", "Ley Hipotecaria", "Ley 7/1998 de Condiciones Generales de la Contratación"],
+  "common_risk_areas": [
+    "Cargas y gravámenes sobre el bien",
+    "Saneamiento por vicios ocultos",
+    "Condiciones suspensivas o resolutorias",
+    "Forma de pago y plazos",
+    "Pacto de retro o retracto convencional",
+    "Arras confirmatorias vs. penitenciales",
+    "Responsabilidad por evicción"
+  ],
+  "red_flags": [
+    "Renuncia al saneamiento por vicios ocultos",
+    "Transmisión de bien con cargas no declaradas",
+    "Arras que penalizan desproporcionadamente al comprador",
+    "Cláusula de reserva de dominio abusiva",
+    "Exclusión de responsabilidad por evicción"
+  ],
+  "few_shot_examples": [
+    {
+      "clause_text": "El comprador declara conocer el estado actual del inmueble y renuncia expresamente a cualquier acción derivada de vicios ocultos, defectos constructivos o cargas no visibles que pudieran existir.",
+      "matched_red_flag": "Renuncia al saneamiento por vicios ocultos",
+      "issue": "La renuncia al saneamiento por vicios ocultos es nula cuando el vendedor conocía los defectos y los ocultó de mala fe. Incluso pactada, deja al comprador sin protección ante defectos graves preexistentes.",
+      "law_reference": "Arts. 1484 y 1487 del Código Civil",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "El vendedor transmite el inmueble libre de cargas y gravámenes según su conocimiento, sin garantizar la situación registral actual ni los posibles embargos posteriores a la fecha de la nota simple aportada.",
+      "matched_red_flag": "Transmisión de bien con cargas no declaradas",
+      "issue": "El vendedor limita su responsabilidad a su propio conocimiento, eludiendo la obligación de garantizar la situación registral real en el momento de la firma, lo que puede suponer la transmisión de cargas ocultas.",
+      "law_reference": "Art. 1462 del Código Civil y Art. 38 de la Ley Hipotecaria",
+      "severity": "severe"
+    },
+    {
+      "clause_text": "En caso de desistimiento del comprador, éste perderá la totalidad de las arras entregadas. En caso de desistimiento del vendedor, éste devolverá únicamente el importe de las arras sin duplicar.",
+      "matched_red_flag": "Arras que penalizan desproporcionadamente al comprador",
+      "issue": "Las arras penitenciales deben operar de forma simétrica: si el comprador pierde las arras, el vendedor debe devolver el doble. Pactar lo contrario rompe el equilibrio contractual.",
+      "law_reference": "Art. 1454 del Código Civil",
+      "severity": "high"
+    },
+    {
+      "clause_text": "El vendedor se reserva la propiedad del bien transmitido hasta el pago íntegro del precio, pudiendo recuperarlo en cualquier momento ante el impago de cualquier plazo, sin devolución de cantidades ya abonadas.",
+      "matched_red_flag": "Cláusula de reserva de dominio abusiva",
+      "issue": "La reserva de dominio es lícita, pero privar al comprador de la devolución de cantidades ya pagadas ante resolución es abusivo y puede ser considerado enriquecimiento injusto.",
+      "law_reference": "Art. 1124 del Código Civil y jurisprudencia del TS",
+      "severity": "high"
+    },
+    {
+      "clause_text": "El vendedor no responderá en ningún caso frente al comprador si un tercero reclamare derechos sobre el bien objeto de la compraventa con anterioridad a la firma del presente contrato.",
+      "matched_red_flag": "Exclusión de responsabilidad por evicción",
+      "issue": "La exclusión total de la responsabilidad por evicción deja al comprador sin protección si un tercero reivindica el bien con éxito, lo que es especialmente grave en inmuebles con historial registral complejo.",
+      "law_reference": "Arts. 1475 y 1476 del Código Civil",
+      "severity": "severe"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+CONTRATO DE PRESTACIÓN DE SERVICIOS DE DESARROLLO DE SOFTWARE
+
+En Madrid, a 2 de junio de 2025.
+
+PARTES
+
+CLIENTE: Tech Startup S.L., CIF B34567890, representada por su CEO D. Pablo Ruiz Moreno, con domicilio en Calle Fuencarral 123, 28010 Madrid. En adelante EL CLIENTE.
+
+PROVEEDOR: Desarrollo Digital S.L., CIF B45678901, representada por su directora Dña. Ana Gómez Torres, con domicilio en Calle Gran Vía 50, 28013 Madrid. En adelante EL PROVEEDOR.
+
+OBJETO DEL CONTRATO
+
+El proveedor se compromete a desarrollar una aplicación web de gestión de inventario para el cliente, conforme a las especificaciones técnicas recogidas en el Anexo I, que forma parte integrante de este contrato.
+
+DURACIÓN Y ENTREGABLES
+
+El proyecto tendrá una duración de cuatro meses, desde el 1 de julio hasta el 31 de octubre de 2025, con los siguientes hitos:
+- Hito 1 (31 julio): Diseño de arquitectura y maquetas aprobadas.
+- Hito 2 (30 septiembre): Versión beta funcional entregada y validada.
+- Hito 3 (31 octubre): Entrega final, documentación y formación.
+
+PRECIO Y FORMA DE PAGO
+
+El precio total del proyecto es de 45.000 euros (IVA no incluido), pagaderos así:
+- 25% (11.250 €) a la firma del contrato.
+- 35% (15.750 €) en la validación del Hito 2.
+- 40% restante (18.000 €) en la aceptación del Hito 3.
+El cliente abonará cada factura en un plazo máximo de 30 días desde su emisión.
+
+PROPIEDAD INTELECTUAL
+
+El cliente adquirirá la propiedad de los entregables finales una vez abonado íntegramente el precio del contrato. El proveedor conserva la titularidad de sus herramientas, frameworks y código base propios, que podrá seguir utilizando en otros proyectos.
+
+RESPONSABILIDAD
+
+La responsabilidad máxima del proveedor por cualquier concepto quedará limitada al 100% del precio total del contrato.
+
+CONFIDENCIALIDAD
+
+Ambas partes se comprometen a mantener la confidencialidad de la información intercambiada durante la ejecución del contrato por un plazo de dos años desde su terminación.
+
+RESOLUCIÓN
+
+Cualquiera de las partes podrá resolver el contrato por incumplimiento grave de la otra, previa notificación escrita con un plazo de quince días para subsanación.
+
+LEGISLACIÓN Y JURISDICCIÓN
+Código Civil español, Ley 3/2004 de morosidad. Juzgados de Madrid.
+
+El Cliente                              El Proveedor
+Tech Startup S.L. - Pablo Ruiz Moreno  Desarrollo Digital S.L. - Ana Gómez Torres
